@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Filmes</title>
+  <meta content="Matheus Avellar" name="author">
+  <meta name="description" lang="pt-br" content="Amendoins no cinema!">
+  <meta name="description" lang="en" content="Peanuts in films!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="intro">
+    <article>
+      <h1>Cine<i>mendoim</i></h1>
+      <ul id="film-list"></ul>
+    </article>
+  </section>
+  <section id="viewer-wrapper">
+    <header id="view-header">
+      <h2>Who Framed Roger Rabbit</h2>
+      <p>(1988)</p>
+      <section>
+        <button id="btn-prev">
+          <svg viewBox="0 0 24 24">
+            <path d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z" />
+          </svg>
+        </button>
+        <button id="btn-next">
+          <svg viewBox="0 0 24 24">
+            <path d="M4,10V14H13L9.5,17.5L11.92,19.92L19.84,12L11.92,4.08L9.5,6.5L13,10H4Z" />
+          </svg>
+        </button>
+      </section>
+    </header>
+    <video id="videoclip" autoplay loop controls>
+      <track kind="captions" srclang="pt-br" src="vtt/1988-who-framed-roger-rabbit.pt-br.vtt"/>
+      <track kind="captions" srclang="en" src="vtt/1988-who-framed-roger-rabbit.en.vtt"/>
+    </video>
+  </section>
+  <script>
+const filmlist = document.getElementById("film-list");
+
+const clips = [
+  {
+    slug: "1988-who-framed-roger-rabbit",
+    title: "Who Framed Roger Rabbit",
+    year: 1988,
+    cliplen: "00:09",
+    imdb: "tt0096438"
+  },
+  {
+    slug: "2004-spongebob-squarepants-movie",
+    title: "The SpongeBob SquarePants Movie",
+    year: 2004,
+    cliplen: "00:18",
+    imdb: "tt0345950"
+  },
+  {
+    slug: "2011-arthur-christmas",
+    title: "Arthur Christmas",
+    year: 2011,
+    cliplen: "00:04",
+    imdb: "tt1430607"
+  }
+];
+const clip_count = clips.length;
+
+clips.forEach((clip, index) => {
+  const li = document.createElement("li");
+  li.dataset.slug = clip.slug;
+  li.dataset.cliplen = clip.cliplen;
+  const img = document.createElement("img");
+  img.className = "thumbnail";
+  img.src = `thumbs/${clip.slug}.png`;
+  li.appendChild(img);
+  const p = document.createElement("p");
+  p.className = "clip-title";
+  const title = document.createElement("span");
+  title.textContent = clip.title;
+  const year = document.createElement("span");
+  year.textContent = ` (${clip.year})`;
+  p.appendChild(title);
+  p.appendChild(year);
+  li.appendChild(p);
+  li.onclick = (evt) => {
+    if(li.getAttribute("data-selected") === null) {
+      selected_index = index;
+      updateVideo(index);
+    }
+  };
+
+  filmlist.appendChild(li);
+});
+
+function updateVideo(index) {
+  const clip = clips[index];
+  const slug = clip.slug;
+  const title = clip.title;
+  const year = clip.year;
+
+  [...filmlist.querySelectorAll("[data-selected]")].forEach(e => {
+    e.removeAttribute("data-selected");
+  });
+  filmlist.querySelector(`[data-slug="${slug}"]`).setAttribute("data-selected", "");
+
+  const video = document.getElementById("videoclip");
+  video.src = `clips/${slug}.mp4`;
+  [...video.querySelectorAll("track")].forEach(t => {
+    const src = t.getAttribute("src");
+    const lang = t.getAttribute("srclang");
+    let newSrc;
+    if(src.length > 0)
+      newSrc = src.replace(/(vtt\/)([^\.]+)(\.[^\.]+\.vtt)/gim, `$1${slug}$3`);
+    else
+      newSrc = `vtt/${slug}.${lang}.vtt`;
+    t.setAttribute("src", newSrc);
+  });
+
+  const header = document.getElementById("view-header");
+  header.querySelector("h2").textContent = title;
+  header.querySelector("p").textContent = `(${year})`;
+}
+
+let selected_index = ~~(Math.random() * clip_count);
+updateVideo(selected_index);
+
+// [Ref] stackoverflow.com/a/4467559/4824627
+function mod(a, n) {  return ((a % n) + n) % n;  }
+
+document.getElementById("btn-prev").onclick = (evt) => {
+  selected_index = mod(--selected_index, clip_count);
+  updateVideo(selected_index);
+};
+document.getElementById("btn-next").onclick = (evt) => {
+  selected_index = mod(++selected_index, clip_count);
+  updateVideo(selected_index);
+};
+  </script>
+</body>
+</html>
