@@ -1,11 +1,18 @@
+1960. Ocean's 11
 1980. Airplane!
 1988. Who Framed Roger Rabbit
+1989. Batman
+1989. Bill and Ted's Excellent Adventure
+1991. Bill & Ted's Bogus Journey
+1992. Reservoir Dogs
 1993. Jurassic Park
 1995. Toy Story
 1997. Good Will Hunting
 1997. Men In Black
 1997. Starship Troopers
 1998. Mulan
+1998. Saving Private Ryan
+1998. The Big Lebowski
 1998. The Rugrats Movie
 1999. The Iron Giant
 1999. Toy Story 2
@@ -18,14 +25,17 @@
 2002. Spider-Man
 2003. Daredevil
 2003. Finding Nemo
-2003. Pirates of the Caribbean - Curse of the Black Pearl
+2003. Pirates of the Caribbean: The Curse of the Black Pearl
 2003. Stitch! The Movie
 2004. The Incredibles
 2004. The SpongeBob SquarePants Movie
 2005. Charlie and the Chocolate Factory [nozes, mas não amendoins]
+2005. Kronk's New Groove
 2005. Lilo & Stitch 2: Stitch Has a Glitch
 2006. Leroy & Stitch
+2006. Pirates of the Caribbean: Dead Man's Chest
 2007. No Country for Old Men
+2007. Pirates of the Caribbean: At World's End
 2007. Ratatouille
 2008. Hancock
 2008. Horton Hears a Who [menciona, não mostra]
@@ -35,6 +45,7 @@
 2009. The Princess and the Frog
 2009. Up
 2010. Despicable Me
+2010. RED
 2010. Toy Story 3
 2011. Arthur Christmas
 2012. Looper
@@ -43,11 +54,16 @@
 2012. Wreck-It Ralph
 2013. Cloudy with a Chance of Meatballs 2
 2013. Despicable Me 2 [menciona, não mostra]
+2013. RED 2
 2015. Minions
+2016. Finding Dory
 2016. Zootopia
 2017. Despicable Me 3
+2018. The Ballad of Buster Scruggs
 2018. The Grinch
 2019. Gemini Man
 2019. Toy Story 4
+2020. Bill & Ted Face the Music
+2020. Dolittle [nozes, mas não amendoins]
 2021. Diary Of A Wimpy Kid
 2021. The Mitchells vs the Machines
