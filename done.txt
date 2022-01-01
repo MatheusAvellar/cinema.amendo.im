@@ -1,3 +1,6 @@
+1924. Peter Pan
+1927. The Jazz Singer
+1937. Snow White and the Seven Dwarfs
 1960. Ocean's 11
 1980. Airplane!
 1988. Who Framed Roger Rabbit
@@ -29,16 +32,17 @@
 2003. Stitch! The Movie
 2004. The Incredibles
 2004. The SpongeBob SquarePants Movie
-2005. Charlie and the Chocolate Factory [nozes, mas não amendoins]
+2005. Charlie and the Chocolate Factory
 2005. Kronk's New Groove
 2005. Lilo & Stitch 2: Stitch Has a Glitch
 2006. Leroy & Stitch
+2006. Over the Hedge
 2006. Pirates of the Caribbean: Dead Man's Chest
 2007. No Country for Old Men
 2007. Pirates of the Caribbean: At World's End
 2007. Ratatouille
 2008. Hancock
-2008. Horton Hears a Who [menciona, não mostra]
+2008. Horton Hears a Who
 2008. Journey To The Center Of The Earth
 2008. WALL-E
 2009. Cloudy with a Chance of Meatballs
@@ -48,22 +52,28 @@
 2010. RED
 2010. Toy Story 3
 2011. Arthur Christmas
+2011. New Year's Eve
+2011. Pirates of the Caribbean: On Stranger Tides
 2012. Looper
 2012. Men In Black 3
 2012. The Lorax
 2012. Wreck-It Ralph
 2013. Cloudy with a Chance of Meatballs 2
-2013. Despicable Me 2 [menciona, não mostra]
+2013. Despicable Me 2
 2013. RED 2
+2014. Whiplash
 2015. Minions
 2016. Finding Dory
 2016. Zootopia
 2017. Despicable Me 3
+2017. Pirates of the Caribbean: Dead Men Tell No Tales
 2018. The Ballad of Buster Scruggs
 2018. The Grinch
 2019. Gemini Man
+2019. Men in Black: International
 2019. Toy Story 4
 2020. Bill & Ted Face the Music
-2020. Dolittle [nozes, mas não amendoins]
-2021. Diary Of A Wimpy Kid
+2020. Dolittle
+2021. Diary of a Wimpy Kid
 2021. The Mitchells vs the Machines
+2021. The Tomorrow War
