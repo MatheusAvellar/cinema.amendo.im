@@ -29,6 +29,7 @@
 2002. Lilo and Stitch
 2002. Men In Black II
 2002. Spider-Man
+2002. The Powerpuff Girls Movie
 2002. The Wild Thornberrys Movie
 2003. Daredevil
 2003. Finding Nemo
@@ -76,12 +77,13 @@
 2016. Zootopia
 2017. Despicable Me 3
 2017. Pirates of the Caribbean: Dead Men Tell No Tales
+2018. Deadpool 2
 2018. The Ballad of Buster Scruggs
 2018. The Grinch
 2019. Dumbo
 2019. Gemini Man
-2019. Men in Black: International
 2019. Klaus
+2019. Men in Black: International
 2019. The Angry Birds Movie 2
 2019. Toy Story 4
 2020. Bill & Ted Face the Music
@@ -90,3 +92,4 @@
 2021. Diary of a Wimpy Kid
 2021. The Mitchells vs the Machines
 2021. The Tomorrow War
+2022. Minions: The Rise of Gru
